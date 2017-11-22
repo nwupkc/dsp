@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> After trying out all three terminal editors, I decided to choose emacs. 
 
 --
 
@@ -89,6 +89,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Sublime Text. I am already using it. Like Markdown, saving .py file makes block code python-specific. OPTION-⌘-2 makes two column panes; SHIFT-OPTION-⌘-2 makes two row panes; and OPTION-⌘-5 makes 4 pane grid. You can customize Sublime under **Preferences**.
 
- 
+
+
