@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> My Macbook came with pre-installed Python 2.7. Since *Codecademy* and *Learn Python the Hard Way* was in Python 2.7, I did not change it.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The fastest way I could think up is running "python" on Terminal.
 
  
 
