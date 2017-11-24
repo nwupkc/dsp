@@ -19,17 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > *show current working directory path*: **pwd** stands for "print working directory" \n
-**cd** stands for "change directory"
-**cd ..** moves up one directory
-*creating a directory*: **mkdir** stands for "make directory"
-*deleting a directory*: **rm -r** removes directories
-*creating a file using `touch` command* **touch** creates a new file inside the working directory
-*deleting a file* **rm** removes files
-**mv filename.txt directory** command moves files
-*renaming a file* **mv old_file.txt new_file.txt** renames a file
-*listing hidden files*: **ls -a** lists all contents, including hidden files and directories
-*copying a file from one directory to another*: **cp filename.txt directory** command copies files or directories
+> > *show current working directory path*: **pwd** stands for "print working directory" . 
+**cd** stands for "change directory" . 
+**cd ..** moves up one directory . 
+*creating a directory*: **mkdir** stands for "make directory" . 
+*deleting a directory*: **rm -r** removes directories . 
+*creating a file using `touch` command* **touch** creates a new file inside the working directory . 
+*deleting a file* **rm** removes files . 
+**mv filename.txt directory** command moves files . 
+*renaming a file* **mv old_file.txt new_file.txt** renames a file . 
+*listing hidden files*: **ls -a** lists all contents, including hidden files and directories . 
+*copying a file from one directory to another*: **cp filename.txt directory** command copies files or directories . 
 
 ---
 
@@ -44,10 +44,10 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` lists the files and folders in the directory
-`ls -a` modifies the behavior of the ls command to also list the files and directories starting with a dot (.)
-`ls -l` lists all contents of a directory in long format
-`ls -t` order files and directories by the time they were last modified.
+> > `ls` lists the files and folders in the directory . 
+`ls -a` modifies the behavior of the ls command to also list the files and directories starting with a dot (.) . 
+`ls -l` lists all contents of a directory in long format . 
+`ls -t` order files and directories by the time they were last modified . 
 
 
 ---
