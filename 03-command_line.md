@@ -19,7 +19,12 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > show current working directory path **pwd** stands for "print working directory"
+**cd** stands for "change directory"
+**cd ..** moves up one directory
+creating a directory **mkdir** stands for "make directory"
+creating a file using `touch` command **touch** creates a new file inside the working directory
+
 
 ---
 
@@ -34,7 +39,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` lists the files and folders in the directory
 
 ---
 
