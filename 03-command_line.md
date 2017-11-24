@@ -47,7 +47,10 @@ What do the following commands do:
 > > * `ls` lists the files and folders in the directory
 > > * `ls -a` modifies the behavior of the ls command to also list the files and directories starting with a dot(.)
 > > * `ls -l` lists all contents of a directory in long format
+> > * `ls -lh` lists all contents of a directory in long format and displays file sizes using more human-friendly units
+> > * `ls -lah` lists all contents, including hidden files and directories, of a directory in long format and displays file sizes using more human-friendly units
 > > * `ls -t` order files and directories by the time they were last modified
+> > * `ls -Glp` list all contents of a directory in long format without group names and write **/** after directories
 
 
 ---
@@ -57,11 +60,11 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > * `ls -d` displays only directories
-* `ls -m` displays the names as a comma-separated list
-* `ls -p` displays directories with /
-* `ls -r` displays files in reverse order
-* `ls -R` displays subdirectories as well
-* `ls -x` displays files as rows across the screen
+> > * `ls -m` displays the names as a comma-separated list
+> > * `ls -p` displays directories with /
+> > * `ls -r` displays files in reverse order
+> > * `ls -R` displays subdirectories as well
+> > * `ls -x` displays files as rows across the screen
 
 ---
 
@@ -69,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` converts input from standard input into arguments to a command
 
  
 
