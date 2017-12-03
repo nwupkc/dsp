@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists are object that store an indexed list of items. A list is created using square brackets with commas separating items. Tuples are very similar to lists, except that they are immutable. Also, they are created using parentheses, rather than square brackets. Only immutable objects can be used as keys to dictionaries. Therefore, tuples will work as keys in dictionaries but lists will not.
 
 ---
 
