@@ -21,7 +21,7 @@ def donuts(count):
     if count < 10:
         return 'Number of donuts: %d' % count
     else:
-        return 'Number of donumts: many'
+        return 'Number of donuts: many'
     raise NotImplementedError
 
 
