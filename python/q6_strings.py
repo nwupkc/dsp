@@ -18,6 +18,10 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
+    if count < 10:
+        return 'Number of donuts: %d' % count
+    else:
+        return 'Number of donumts: many'
     raise NotImplementedError
 
 
@@ -37,6 +41,10 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
+    if len(s) < 2:
+        return ''
+    else:
+        return s[:2] + s[-2:]
     raise NotImplementedError
 
 
@@ -56,6 +64,13 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
+    str = s[0]
+    for i in range(1,len(s)):
+        if s[i] == s[0]:
+            str += '*'
+        else:
+            str += s[i]
+    return str
     raise NotImplementedError
 
 
@@ -74,6 +89,7 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
+    return b[:2] + a[2:], a[:2] + b[2:]
     raise NotImplementedError
 
 
@@ -91,6 +107,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
+    if len(s) >= 3:
+        if s[-3:] != 'ing':
+            return s + 'ing'
+        else:
+            return s + 'ly'
+    else:
+        return s
     raise NotImplementedError
 
 
@@ -130,4 +153,5 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
+    return a[:(len(a)+1)/2] + b[:(len(a)-1)/2] + a[(len(a)+1)/2:] + b[(len(b)+1)/2:]
     raise NotImplementedError
