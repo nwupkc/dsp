@@ -89,7 +89,7 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    return b[:2] + a[2:], a[:2] + b[2:]
+    return b[:2] + a[2:] + ' ' + a[:2] + b[2:]
     raise NotImplementedError
 
 
@@ -117,6 +117,7 @@ def verbing(s):
     raise NotImplementedError
 
 
+import re
 def not_bad(s):
     """
     Given a string, find the first appearance of the substring 'not'
@@ -134,10 +135,15 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
+    x = re.split('(\W)', s)
+    print(x)
+    if "not" in x and "bad" in x and x.index("not") < x.index("bad"):
+        x = x[:x.index("not")] + ["good"] + x[x.index("bad") + 1:]
+    return "".join(x)
     raise NotImplementedError
 
-
-def front_back(a, b):
+from math import *
+def front_back(s1, s2):
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
@@ -153,5 +159,5 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    return a[:(len(a)+1)/2] + b[:(len(a)-1)/2] + a[(len(a)+1)/2:] + b[(len(b)+1)/2:]
+    return s1[:ceil((len(s1)/2))] + s2[:ceil(len(s2)/2)] + s1[ceil(len(s1)/2):] + s2[ceil(len(s2)/2):]
     raise NotImplementedError
